@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecovida - Futuro Sostenible</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #b2f7ef 0%, #98e6d3 100%);
+      padding: 100px 20px;
+      text-align: center;
+      color: #000;
+    }
+
+    header h1 {
+      font-size: 4em;
+      font-weight: bold;
+      color: #111;
+      text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    header p {
+      font-size: 1.5em;
+      color: #222;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    section {
+      background-color: #e6f7e6;
+      padding: 40px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .productos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .producto {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .producto:hover {
+      transform: scale(1.05);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .producto h3 {
+      color: #2e7d32;
+      margin: 15px 0 10px;
+    }
+
+    .producto p {
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .registro {
+      background-color: #d1f0ff;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .registro h2 {
+      margin-bottom: 20px;
+    }
+
+    .registro input {
+      padding: 10px;
+      margin: 10px;
+      width: 250px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .registro button {
+      padding: 10px 30px;
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><i class="fas fa-leaf"></i> Ecovida</h1>
+    <p>Innovación ecológica para un futuro mejor</p>
+  </header>
+
+  <section>
+    <h2>Nuestra Visión</h2>
+    <p>
+      Ecovida nace con la visión de construir un futuro donde la tecnología y la ecología convivan en armonía.
+      Nos inspira un mundo en el que la innovación se desarrolla al servicio del planeta, donde el progreso no
+      compromete, sino que potencia la vida natural. Creemos que otro mañana es posible: inteligente, verde y humano.
+    </p>
+  </section>
+
+  <div class="productos">
+    <div class="producto">
+      <img src="green.jpg" alt="Kit Huerto Urbano">
+      <h3><i class="fas fa-seedling"></i> Kit Huerto Urbano</h3>
+      <p>Cultiva tus propios alimentos desde casa.</p>
+      <a href="#" class="btn">Comprar</a>
+    </div>
+
+    <div class="producto">
+      <img src="pace.jpg" alt="Compostera">
+      <h3><i class="fas fa-recycle"></i> Compostera</h3>
+      <p>Convierte residuos orgánicos en abono natural.</p>
+      <a href="#" class="btn">Comprar</a>
+    </div>
+
+    <div class="producto">
+      <img src="panels.jpg" alt="Energía Renovable">
+      <h3><i class="fas fa-solar-panel"></i> Energía Renovable</h3>
+      <p>Genera energía limpia con paneles solares.</p>
+      <a href="#" class="btn">Comprar</a>
+    </div>
+
+    <div class="producto">
+      <img src="filtroagua.jpg" alt="Filtro de Agua">
+      <h3><i class="fas fa-water"></i> Filtro de Agua</h3>
+      <p>Purifica el agua de manera sostenible.</p>
+      <a href="#" class="btn">Comprar</a>
+    </div>
+  </div>
+
+  <div class="registro">
+    <h2>Regístrate</h2>
+    <input type="email" placeholder="Correo electrónico">
+    <input type="password" placeholder="Contraseña">
+    <br />
+    <button>Crear cuenta</button>
+  </div>
+</body>
+
+</html>
